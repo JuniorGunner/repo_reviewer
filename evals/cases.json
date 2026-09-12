@@ -1,0 +1,12 @@
+[
+  {
+    "name": "mutable-default",
+    "input": "process_users(users=[]) mutates the default list",
+    "expected_category": "correctness"
+  },
+  {
+    "name": "request-timeout",
+    "input": "requests.get is called without a timeout",
+    "expected_category": "reliability"
+  }
+]
